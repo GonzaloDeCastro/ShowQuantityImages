@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Problema-8/static/css/main.c80bc680.css",
-    "main.js": "/Problema-8/static/js/main.608f890e.js",
+    "main.js": "/Problema-8/static/js/main.d148da7d.js",
     "index.html": "/Problema-8/index.html",
     "main.c80bc680.css.map": "/Problema-8/static/css/main.c80bc680.css.map",
-    "main.608f890e.js.map": "/Problema-8/static/js/main.608f890e.js.map"
+    "main.d148da7d.js.map": "/Problema-8/static/js/main.d148da7d.js.map"
   },
   "entrypoints": [
     "static/css/main.c80bc680.css",
-    "static/js/main.608f890e.js"
+    "static/js/main.d148da7d.js"
   ]
 }
