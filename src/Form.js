@@ -40,12 +40,13 @@ const Form = () => {
         }) => (
           <form className="form" onSubmit={handleSubmit}>
             <div>
-              <label htmlFor="image">image</label>
+              <label htmlFor="image" style={{ textAlign: "center" }}>
+                Tipea la cantidad imagenes a mostrar
+              </label>
               <input
                 type="number"
                 id="image"
                 name="image"
-                placeholder="tipea la cantidad imagenes..."
                 value={values.image}
                 onChange={handleChange}
                 onBlur={handleBlur}
@@ -54,13 +55,12 @@ const Form = () => {
                 <div className="error">{errors.image}</div>
               )}
             </div>
-            <button type="submit">Enviar</button>
             {formSent && <p className="exito">Formulario enviado!</p>}
             <br />{" "}
             {(values.image > 0) & (values.image < 16) ? (
               <ListPokemon results={data} numCaracter={values.image} />
             ) : (
-              <p>La cantidad máxima es 15 </p>
+              <p style={{ textAlign: "center" }}>La cantidad máxima es 15 </p>
             )}
             <br />
           </form>
