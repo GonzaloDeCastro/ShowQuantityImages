@@ -1,6 +1,6 @@
-# Problema-8
+# Show Quantity Images
 
-Colocar un campo que reciba un número, luego dado ese número mostrarás esa
+Coloca un campo que reciba un número, luego dado ese número muestra esa
 cantidad en imágenes debajo del campo organizadas de forma acorde al tamaño de la
 pantalla.
 
